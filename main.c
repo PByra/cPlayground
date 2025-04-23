@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-    printf("Hello, Windows!\n");
+    printf("Testing Git Collaboration\n");
     return 0;
 }
 
