@@ -1,1 +1,29 @@
-main
+# --- Executables and Binaries ---
+# Ignore the output files created by gcc
+hello
+*.exe
+*.out
+*.app
+
+# --- Object Files ---
+# Intermediate files created during compilation
+*.o
+*.obj
+
+# --- Debugging and Symbols ---
+# Files created by the debugger (gdb) or VS Code
+.vscode/
+*.dSYM/
+*.pdb
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Embedded Specific (Future use) ---
+# If you eventually use STM32 or Keil
+*.hex
+*.bin
+*.elf
+*.map
+*.lst
