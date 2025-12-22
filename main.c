@@ -1,20 +1,18 @@
 #include <stdio.h>
 
+int square(int a);
 
 int main()
 {
-    int input; 
-    int output;
+    int array[3] = {1, 3, 4};
+    int *ptrarray = array;
 
-    printf("Enter an integer: ");
-    scanf("%d", &input);
-
-    for (int i = 0; i <= 10; i++) 
+    for (int i = 0; i < 3; i++)
     {
-        output = input * i;
-        printf("%d\n", output);
+        printf("%d\n", *(ptrarray+i));
     }
+
     return(0);
-}
+}   
 
 
